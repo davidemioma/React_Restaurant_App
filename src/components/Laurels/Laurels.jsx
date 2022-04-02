@@ -4,7 +4,7 @@ import classes from "./Laurels.module.css";
 
 const Laurels = () => {
   return (
-    <div className={classes.container}>
+    <div id="awards" className={classes.container}>
       <div className={classes.awards}>
         <p className="p_cormorant">Awards & Recognition</p>
 

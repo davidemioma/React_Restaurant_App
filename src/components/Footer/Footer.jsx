@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="app_bg">
       <NewsLetter />
 
-      <div className={classes.footer}>
+      <div id="contact" className={classes.footer}>
         <div className={classes.contents}>
           <div className={classes.links}>
             <h1>Contact Us</h1>
