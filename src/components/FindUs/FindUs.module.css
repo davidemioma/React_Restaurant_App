@@ -1,0 +1,47 @@
+.findUs {
+  padding: 5rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info img {
+  margin-bottom: 2rem;
+}
+
+.info h1 {
+  margin-bottom: 3rem;
+}
+
+.text {
+  color: #dcca87;
+  font-family: var(--font-base);
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.info button {
+  margin-top: 2rem;
+}
+
+.image img {
+  width: 100%;
+}
+
+.contents {
+  display: grid;
+  gap: 5rem;
+}
+
+@media screen and (min-width: 500px) {
+  .findUs {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contents {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}

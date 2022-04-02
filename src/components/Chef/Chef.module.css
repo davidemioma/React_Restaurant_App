@@ -1,0 +1,62 @@
+.chef {
+  padding: 5rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chefContents {
+  display: grid;
+  gap: 4rem 5rem;
+}
+
+.chefContents img {
+  width: 100%;
+}
+
+.chefInfo .spoon {
+  width: 50px;
+  margin-bottom: 2rem;
+}
+
+.chefInfo h1 {
+  margin-bottom: 4rem;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quote img {
+  width: 60px;
+  height: 40px;
+}
+
+.signature {
+  margin-top: 3rem;
+}
+
+.name {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  margin-bottom: 0.5rem;
+}
+
+.signature img {
+  margin-top: 1rem;
+  width: 250px;
+}
+
+@media screen and (min-width: 500px) {
+  .chef {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .chefContents {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
